@@ -6,6 +6,8 @@
 }
 
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     height: 100vh;
     background: #FFFCFA;
     background-image: url('../assets/images/background.svg');
@@ -109,6 +111,8 @@ header a {
 #result h1 {
     font-family: 'Elsie Swash Caps', cursive;
     font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
     text-align: center;
     color: #000000;
     padding: 0.5em;
@@ -149,7 +153,75 @@ header a {
 }
 
 @media screen and (max-width: 600px) {
-    .container {
-        font-size: 14px;
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        background-size: cover;
+    }
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    #result {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #result img {
+        max-width: 15em;
+    }
+
+    #result .info {
+        padding: 1.5em;
+    }
+
+    #result h1 {
+        font-size: 3em;
+    }
+
+    #result h3 {
+        font-size: 1em;
+    }
+
+    #result ul {
+        margin-bottom: 0.5em;
+    }
+
+    #result li {
+        font-size: 0.8em;
+    }
+
+    #result p {
+        font-size: 0.8em;
+    }
+    .msg {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        background-size: cover;
+    }
+
+    #result {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #result img {
+        max-width: 15em;
+    }
+
+    #result .info {
+        padding: 1.5em;
+    }
+    .msg {
+        text-align: center;
     }
 }
