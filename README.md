@@ -1,4 +1,4 @@
-# :dog: Pibo
+# :cocktail: Cocktail Maker
 
 Cocktail Maker is a website that allows users to search for their favourite cocktails and get the recipe for it.
 
